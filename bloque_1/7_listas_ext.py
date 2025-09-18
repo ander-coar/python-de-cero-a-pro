@@ -55,9 +55,6 @@ print("Numero minimo:", num_min)
 
 
 
-
-
-
-
-
-
+import inspect
+print(inspect.isfunction(list.pop))
+print(inspect.ismethod(list.insert))
