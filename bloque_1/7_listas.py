@@ -42,6 +42,7 @@ abcedario = abcedario +  ['j', 'k', 'l']
 print(abcedario)
 
 # remove() Elimina un elemento por su valor
+# Elimina el primer elemento que encuentra con ese valor
 abcedario.remove("e") # Elimina la letra "e" de la lista abcedario
 print(abcedario) 
 
